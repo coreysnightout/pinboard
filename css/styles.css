@@ -4,10 +4,17 @@ body {
   background-repeat: repeat-x;
 }
 
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Barrio', cursive;
+  color: #51473d;
+}
+
 .photo {
   position: relative;
-  top: 200px;
-  left: 200px;
+  top: 150px;
+  left: 150px;
   /*border: purple;*/
 }
 
@@ -32,6 +39,21 @@ body {
   left: -90px;
 }
 
+.pin {
+  position: absolute;
+  top: -100px;
+}
+
+.sharpie {
+  position: absolute;
+  font-family: 'Permanent Marker', cursive;
+  top: 640px;
+  left: 150px;
+}
+
+#note {
+  font-size: 60px;
+}
 
 #harry {
   width: 83%;
