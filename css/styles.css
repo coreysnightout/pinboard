@@ -1,4 +1,38 @@
-.cork {
-  position: fixed;
-  width: 100%;
+body {
+  background-image: url(../img/cork-board.jpg);
+  background-position: top;
+  background-repeat: repeat-x;
+}
+
+.photo {
+  position: relative;
+  top: 200px;
+  left: 200px;
+  /*border: purple;*/
+}
+
+.harry2 {
+  position: absolute;
+  top: 350px;
+  left: 20px;
+}
+
+.harry {
+  position: absolute;
+  left: 8px;
+}
+
+#bigfoot {
+  width: 110%;
+}
+
+.polaroid {
+  position: absolute;
+  top: -100px;
+  left: -90px;
+}
+
+
+#harry {
+  width: 83%;
 }
